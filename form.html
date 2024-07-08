@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <title>
+        Registeration Form
+    </title>
+</head>
+
+<body>
+    <h2 align="center">Student Registeration form</h2>
+    <form>
+        <lable for="fname">First Name: </lable>
+        <input type="text" id="fname" required />
+
+        <br />
+        <br />
+
+        <lable for="lname">Last Name</lable>
+        <input type="text" id="lname" />
+
+        <br />
+        <br />
+
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" /><label for="male">Male</label>
+        <input type="radio" id="female" name="gender" /><label for="female">Female</label>
+        <input type="radio" id="other" name="gender" /><label for="other">Other</label>
+
+        <br />
+        <br />
+
+        <lable for="email">Email: </lable>
+        <input type="email" id="email" required />
+
+        <br />
+        <br />
+
+        <lable for="dob">DOB:</lable>
+        <input type="date" id="dob" required />
+
+        <br />
+        <br />
+
+        <lable for="Mobile Number">Mobile Number: </lable>
+        <input type="tel" id="Mobile Number" required />
+
+        <br />
+        <br />
+
+        <label for="address">Current Address: </label>
+        <input type="text" id="address" size="50" />
+
+        <br />
+        <br />
+
+        <label for="percentage">+2 Percentage:</label>
+        <input type="number" id="percentage" min="1" max="2" required />
+
+        <br />
+        <br />
+
+        <label for="course">Course:</label>
+        <select name="course" id="course" required>
+            <option value="BCA">Choose a Course</option>
+            <option value="BCA">Bachlors of Computer Application</option>
+            <option value="BCA">Bachlors of Arts</option>
+            <option value="BCA">Fashion Designing</option>
+            <option value="BCA">Bachlors of Commerce</option>
+        </select>
+
+        <br />
+        <br />
+
+        <lable for="password">Password: </lable>
+        <input type="Password" id="password" required />
+
+        <br />
+        <br />
+
+        <lable for="submit"></lable>
+        <button type="submit" id="submit">submit</button>
+
+        <label for="reset"></label>
+        <input type="reset" id="reset" />
+
+    </form>
+</body>
+
+</html>

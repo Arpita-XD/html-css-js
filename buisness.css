@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+.image-container1{
+    background-image: url(https://media-www.sqspcdn.com/images/pages/vertical/small-business/hero/background-1500w.jpg);
+    height:100vh;
+    background-repeat:no-repeat repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    position: sticky;
+    top:0px;
+    display:flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width:100%;
+    background-color: black;
+    
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+} 
+
+nav ul a{
+   display:inline-block;
+
+   color:white;
+   font-size: x-large;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 20px;
+   justify-content: center;
+}
+
+.elements{
+    justify-content: space-around;
+}
+
+.nav-button{
+    display: block;
+    position: absolute;
+    outline: none;
+    border:none;
+    box-shadow: none ;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    transition: all 1s ease-in-out;  
+    font-size: 20px;
+   
+}
+
+.image-text{
+    position: absolute;
+    top:25%;
+    color:white;
+    padding:20px;
+    margin:30px;
+    width:55%;
+} 
+
+.heading1{
+    font-size: 100px;
+    font-weight: bold;
+    width:90%;
+    
+}
+
+.para1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width:750px;
+}
+
+.button{
+  display:block;
+  position: absolute;
+  outline: none;
+  border:none;
+  box-shadow: none ;
+  background-color: white;
+  color:black;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 23px;
+}
+
+.button:hover{
+    background-color: lightgrey;
+}
+
+.container2{
+    background-color: #5a534c;
+    display:block;
+    height:120vh; 
+   
+}
+
+.header2{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.heading2{
+    width:40%;
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-size:100px;
+    margin-top:70px;
+}
+
+.para2{
+    width:45%;
+    color: aliceblue;
+    font-size: 40px; 
+    margin-bottom: 100px;
+}
+
+.image-container2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.parent2{
+    width:33%;
+    margin:25px;
+    font-weight: bold;
+}
+
+.images2{
+    border:50px solid white;
+    margin-bottom: 25px;
+}
+
+.text2{
+    color:white;
+    font-size: x-large;
+}
+
+.container3{
+    display: flex;
+    position: relative;
+    /* background-image: url(https://media-www.sqspcdn.com/images/pages/tour/professional-email/hero/desktop-2500w.jpg); */
+    /* height:120vh; */
+    /* background-repeat:no-repeat repeat;
+    background-size:cover;
+    background-position: center; */
+}
+
+.img-content2{
+    width: 100%;
+}
+
+.content3{
+  padding: 60px;
+  position:absolute;
+}
+
+.heading3{
+    font-size: 80px;
+    font-weight: bold;
+    width:40%;
+    
+}
+
+.para3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width:750px;
+}
+
+.button2{
+  display:block;
+  position: absolute;
+  padding:30px 50px 30px 50px;
+  outline: none;
+  border:none;
+  box-shadow: none ;
+  background-color: black;
+  color:white;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button2:hover{
+    background-color: rgb(58, 53, 53);
+}
+
+.container4{
+    background-color:white;
+    height:110vh;
+}
+
+.header4{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.heading4{
+    width:50%;
+    color: black;
+    margin-bottom: 10px;
+    font-size:70px;
+    margin-top:70px;
+}
+
+.para4{
+    width:35%;
+    color: black;
+    font-size: 30px; 
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.image-container4{
+    display:flex;
+    flex-direction: row;
+}
+
+.parent4{
+    width:33%;
+    margin:25px;
+    font-weight: bold;
+    margin: 0px 10px 0px 210px;
+}
+
+.images4{
+    margin-bottom: 25px;
+}
+
+.text4{
+    color:black;
+    font-size: x-large;
+}
+
+
+

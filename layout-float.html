@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <title>Layout</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+
+        }
+        span {
+            display:block;
+            background-color: aqua;
+            height: 100px;
+            text-align: center;
+            text-shadow: 2px 2px 2px blue;
+            font-size:70px ; 
+        }
+
+        nav {
+            display:flex;
+            background-color: coral;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+        }
+       
+        .R-sidebar {
+            background-color: lightgrey;
+            height: 400px;
+            width: 200px;
+            float: right;
+            overflow-x: scroll;
+            padding-left: 10px;
+            border:2px solid black;
+        }
+
+        .L-sidebar {
+            display:block;
+            background-color: lightsteelblue;
+            height: 400px;
+            width: 200px;
+            float: left;
+        }
+
+        div>a{
+            display:inline;
+            margin:40px;
+            align-content: center;
+            font-size: 20px;
+           }
+
+        div>a:link{
+            color:black;
+             background-color: yellow; 
+        }
+
+        div>a:hover{
+            background-color: coral;
+            color:blueviolet
+        }
+
+        .content {
+            background-color: bisque;
+            height: 400;
+            width: 1000;
+            margin-left:0px;
+            margin-right:0px;
+            margin-bottom: auto;
+        }
+
+        #box{
+            display:flex;
+            height:100px;
+            width:778px;
+            background-color:plum;
+            font:20px ;
+            text-decoration: underline;
+            align-items: center;
+            justify-content: center;
+            transition:all 2s ease-in-out 1s;
+           
+        }
+
+        #box:hover{
+            font-size: 60px;
+        }
+        #box1{
+           display:inline;
+           color: black;
+           font-size:30px;
+           transition:color 1s ease-in-out 1s;
+        }
+
+        #box1:hover{
+            color: darkgreen;
+        }
+
+        footer {
+            background-color: darkorchid;
+            height: 50px;
+        }
+        footer>a{
+            color:aliceblue;
+            padding:20px;
+        }
+    </style>
+</head>
+
+<body>
+    <span>
+    &#128522; Main Heading &#128522;
+    </span>
+    <nav><h2>This is a navigation bar.</h2></nav>
+    <div class="R-sidebar">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor veritatis optio sint vitae, esse natus iure, sit asperiores quod voluptates molestiae explicabo mollitia suscipit nulla est necessitatibus dolores. Aut delectus odio architecto deleniti nihil quas, soluta reiciendis? Laborum nihil distinctio vitae? Perspiciatis molestias deserunt, totam esse minus deleniti inventore dolores consequatur saepe ullam obcaecati praesentium sequi ex nobis officiis sit, dignissimos repellat illum accusamus cum impedit autem. Nemo, sapiente! Nisi ducimus repellendus libero animi ipsam quod, rerum nam doloremque ipsa similique consequuntur atque, tenetur nostrum magni. Quam inventore perferendis harum nulla ratione delectus, laborum amet reiciendis sapiente odit cupiditate consequuntur!</div>
+    <div class="L-sidebar">
+        <img src="https://compote.slate.com/images/5294e6d0-53ed-4a4a-a350-7eaeab72ac93.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1200" width=200 height="100"/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum quos laboriosam nisi, eveniet incidunt ab, impedit inventore neque iure pariatur libero adipisci placeat expedita. Rem quos quam sequi voluptate cum ea vero repudiandae illum. Quasi odit doloremque magni a dolores quis iure repellat, libero magnam. Tempore iure eligendi doloremque!</p>
+        <a href="https://en.wikipedia.org/wiki/Lorem_ipsum">Lorem Ipsum</a>
+    </div>
+    <div class="content">
+       <div id="box">
+        LOREM IPSUM
+       </div>
+       <div id="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi voluptate maxime impedit corporis iure at earum totam facere unde fugit a quidem similique itaque, eos adipisci consequuntur pariatur, cupiditate deserunt ea nobis esse voluptatum natus. Ratione doloribus tempore autem in quia obcaecati vero voluptatibus dignissimos necessitatibus aliquam. At, deleniti!
+       </div>
+    </div>
+
+    <footer><a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Copyright Policy</a>
+        <a href="#">Hyperlinking Policy</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Helps</a></footer>
+    
+    <body>
+
+</html>

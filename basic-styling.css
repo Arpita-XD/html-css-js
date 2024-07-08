@@ -1,0 +1,68 @@
+/*p,a{
+    color:red;
+}
+
+li{
+    list-style-type:square
+}
+
+.special{
+    color: blueviolet;
+    font-size: medium;
+}
+
+li em{
+    color: chocolate;
+}
+
+h1+p{
+    background-color: cornsilk;
+}
+
+a:hover{
+    color:blue;
+    text-decoration:double;    
+}
+
+body h1+p .special{
+    color:black
+}
+
+#heading{
+    background-color: aqua;
+
+}
+
+li[class]{
+    background-color: antiquewhite;
+}
+
+*{
+    background-color: burlywood;
+}
+
+input[type="email"]{
+    width: 200px;
+    border:2px solid red;
+}
+
+div p{
+    color:blue
+}
+
+div>h2{
+    color:blueviolet
+}
+
+div p:nth-child(2){
+    background-color: aquamarine;
+}
+
+p {
+    border-bottom: 6px solid rgb(255, 0, 187);
+  }*/
+
+.background{
+    background-image:url(https://wallpapercave.com/wp/0pMys4b.jpg) ;
+    background-size: 1000px;
+}

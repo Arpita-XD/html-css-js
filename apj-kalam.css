@@ -1,0 +1,80 @@
+div{
+    text-align:center;
+}
+
+nav{
+    background-color: pink;
+    padding:10px;
+}
+
+nav a{
+    padding:40px;
+    text-align:center;
+    font-size: medium;
+    
+}
+
+#photo{
+    margin: 40px;
+    border:6px solid blue;
+    float:left;
+
+}
+
+footer{
+    padding:20px;
+    font-size:medium;
+    background-color: rgb(24, 222, 228);
+}
+
+footer a{
+    padding:40px;
+}
+
+#navbar{
+    position: sticky;
+    top:0px;
+}
+
+.sidebar{
+    position:fixed;
+    right:0px;
+    top:151px;
+    height:500;
+    width:200;
+    background-color:rgb(225, 231, 231);
+    float:right;
+    overflow:scroll;
+}
+
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
+.flex{
+    width:75px;
+    height: 75px;
+    background-color: rgb(133, 240, 240);
+    border:2px solid darkblue;
+    padding:70px;
+    margin:20px;
+}
+
+#flex1{
+    overflow:scroll;
+
+}
+#flex2{
+    overflow:scroll;
+
+}
+#flex3{
+    overflow:scroll;
+
+}
+#flex4{
+    overflow:scroll;
+
+}

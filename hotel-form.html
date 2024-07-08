@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <title>
+        Register Online
+    </title>
+</head>
+
+<body style="background:blanchedalmond ;color:rgb(42, 65, 165)">
+    <h1 align="center">Hotel Booking</h1>
+    <p align="center">Experience something new every moment</p>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text " id="fname" placeholder="eg:Arpita" required />
+
+        <label for="lname"><!--<span style="border:3px solid black"-->>Last Name</span></label>
+        <input type="text" id="lname" />
+
+        </br>
+        </br>
+
+        <label for="E-mail">E-mail</label>
+        <input type="email" id="E-mail" placeholder="abcd@gmail.com" required />
+
+        </br>
+        </br>
+
+        <label for="Mobile number">Mobile Number</label>
+        <input type="tel" id="Mobile number" min="10" max="10" required />
+
+        </br>
+        </br>
+
+        <label for="room type">Room Type:</label>
+        <select name="room type" id="room type" required>
+            <option value="BCA">Please Select</option>
+            <option value="BCA">Standard Room(1 to 2 People)</option>
+            <option value="BCA">Family Room(1 to 2 People)</option>
+            <option value="BCA">Private Room(1 to 3 People)</option>
+            <option value="BCA">Mix Dorm Room(6 People)</option>
+            <option value="BCA">Female Dorm Room(6 People)</option>
+            <option value="BCA">Male Dorm Room(6 People)</option>
+        </select>
+
+        </br>
+        </br>
+
+        <label for="no of guest">Number of guest</label>
+        <input type="number" id="no of guest" placeholder="eg:2,3" required />
+
+        </br>
+        </br>
+
+        <label for="date nd time">Arrival Date And Time</label>
+        <input type="datetime-local" id="date nd time" required />
+
+        </br>
+        </br>
+
+        <label for="departure">Departure Date</label>
+        <input type="date" id="departure" required />
+
+        </br>
+        </br>
+
+        <label for="pickup">Free Pickup?</label></br>
+        <input type="radio" id="pickup" name="pickup" /><label for="pickup">Yes Please!</label></br>
+        <input type="radio" id="pickup" name="pickup" /><label for="pickup">No Thanks.</label>
+
+        </br>
+
+        <p>Special Text</p>
+        <textarea type="text" id="text " rows="05" cols="50"></textarea>
+
+        </br>
+        </br>
+
+        <lable for="submit"></lable>
+        <button type="submit" id="submit">submit</button>
+        <br>
+        <br>
+
+        <lable for="submit"></lable>
+        <button type="reset" id="submit">Reset</button>
+
+
+    </form>
+</body>
+
+</html>

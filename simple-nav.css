@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+}
+
+header {
+  /* background-color: lightcoral; */
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 15px tomato;
+}
+
+nav {
+  margin-right: 20px;
+ }
+
+nav ul {
+  list-style-type: none;
+  display: flex;  
+  align-items: center; 
+}
+
+nav ul a {
+  text-decoration: none;
+  padding: 20px;
+  /* padding: 20px; */
+  display: inline-block; 
+}
+
+nav ul a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 3px;
+  background-color: tomato;
+  transition: all 1s 0s ease-in-out;
+}
+
+nav ul a:hover::after {
+  width: 100%;
+}
+
+.btn_signin {
+  border: none;
+  outline: none;
+  padding: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: cornsilk;
+  border-radius: 15px;
+}
+
+main {
+  /* background-color: cornsilk; */
+  height: calc(100vh - 70px);
+}
+
+
