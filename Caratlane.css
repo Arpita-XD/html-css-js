@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 25px;
+  background-color: #4f3267;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-nav {
+  display: flex;
+  height: 120px;
+  box-shadow: 2px 2px 3px lightgrey;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.logo {
+  margin-left: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.elements {
+  margin-right: 20px;
+}
+
+.elements ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.elements ul a {
+  text-decoration: none;
+  color: #4f3267;
+  padding: 18px;
+  font-size: 18px;
+}
+
+.nav-search {
+  display: flex;
+  margin-right: 10px;
+  border: 1px solid rgb(234, 129, 227);
+  height: 50px;
+  width: 230px;
+  border-radius: 10px;
+}
+
+.search-input {
+  border: none;
+  border-radius: 10px;
+}
+
+.search-icon {
+  background-color: rgb(234, 129, 227);
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px;
+  cursor:pointer;
+}
+
+.nav-pincode {
+  margin-right: 25px;
+  cursor:pointer;
+}
+
+.line1 {
+  color: #555353;
+  font-size: 13px;
+}
+
+.line2 {
+  color: rgb(234, 129, 227);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.flag {
+  margin-right: 20px;
+  cursor:pointer;
+}
+
+.icon {
+  margin: 10px;
+  font-size: larger;
+  cursor:pointer;
+}
+
+.heading {
+  background-color: #f6f3f9;
+  height: 110px;
+  padding: 30px 0px 0px 90px;
+}
+
+.heading-line1 {
+  color: #4f3267;
+  font-size:20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.heading-line2 {
+  color: #4f3267;
+  font-size: 10px;
+}
+
+.tabs{
+    background-color: white;
+    box-shadow: 2px 2px 3px lightgrey;
+    width:100%;
+    height:120px;
+    display:flex;
+}
+
+.tabs ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.tabs ul li{
+    background-color: #EAE3FF;
+    font-size: x-large;
+    margin:20px;
+    padding: 20px;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+.all-tab{
+  background-color: #8863FB;
+}
+
+.tabs ul li:hover{
+  background-color: #8863FB;
+}
+
+.left-sidebar{
+  width:30%;
+  background-color: aquamarine;
+}
